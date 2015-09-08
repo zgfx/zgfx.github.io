@@ -2,36 +2,145 @@
 
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
 
+		nav#slide-menu, div#content {
+			visibility: hidden;
+		}
 	}
 
 
 @media only screen and (min-width: 960px) and (max-width: 1024px) {
 	
 
+	nav#slide-menu, div#content {
+			visibility: hidden;
+		}
+
 	}
 
 	@media only screen and (min-width: 959px) {
 		
+		nav#slide-menu, div#content {
+			visibility: hidden;
+		}
 
 	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 
+		.circle-selectors {
+			visibility: hidden;
+		}
+		
+		ul.mnu {
+			visibility: hidden;
+		}
+
+		p,
+		h5.hdr-how, 
+		p.how-par, 
+		p.ftr-par,
+		p.ftr-cntc,
+		h1.works-hdr {
+			text-align: center !important;
+		}
+
+		button.works-btn {
+			width: 100%;
+		}
+
+		.header-con {
+			padding: 0 !important;
+		}
+
 	}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (min-width: 640px) and (max-width: 767px) {
 
+		.circle-selectors {
+			visibility: hidden;
+		}
+
+		ul.mnu {
+			visibility: hidden;
+		}
+
+		p,
+		h5.hdr-how, 
+		p.how-par, 
+		p.ftr-par,
+		p.ftr-cntc,
+		h1.works-hdr {
+			text-align: center !important;
+		}
+
+		button.works-btn {
+			width: 100%;
+		}
+
+		.header-con {
+			padding: 0 !important;
+		}
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 
+		.circle-selectors {
+			visibility: hidden;
+		}
 
+		ul.mnu {
+			visibility: hidden;
+		}
+
+		p,
+		h5.hdr-how, 
+		p.how-par, 
+		p.ftr-par,
+		p.ftr-cntc,
+		h1.works-hdr {
+			text-align: center !important;
+		}
+
+		button.works-btn {
+			width: 100%;
+		}
+
+		.header-con {
+			padding: 0 !important;
+		}
 	}
 
 	@media only screen and (min-width: 320px) and (max-width: 479px) {
 
+		.circle-selectors {
+			visibility: hidden;
+		}
 
+		ul.mnu {
+			visibility: hidden;
+		}
+
+		p,
+		h5.hdr-how, 
+		p.how-par, 
+		p.ftr-par,
+		p.ftr-cntc,
+		h1.works-hdr {
+			text-align: center !important;
+		}
+
+		button.works-btn {
+			width: 100%;
+		}
+
+		.header-con {
+			padding: 0 !important;
+		}
+
+		button.hdr-btn {
+			margin:0 !important;
+		}
 	}
